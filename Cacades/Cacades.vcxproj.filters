@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f31fe7ff-8d80-47ab-a378-c75b9131f10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rendering">
+      <UniqueIdentifier>{5d0656fa-9314-48d3-9a07-4b0aa73b98eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rendering">
+      <UniqueIdentifier>{fea28206-91f9-4fd8-8bd9-c4c63bd22478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Enums">
+      <UniqueIdentifier>{abefb3ac-2384-4118-a5b3-4bd25da225ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ParticleSystem">
+      <UniqueIdentifier>{2f881611-d7ca-4f73-a040-3463128ea301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Tessellation">
+      <UniqueIdentifier>{ea3c3aed-8db1-4651-8140-279a311db12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OtherStuff">
+      <UniqueIdentifier>{5384824f-eebe-4e60-9fcc-077ba0fa4728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OtherStuff">
+      <UniqueIdentifier>{c9d070ae-5c40-4afc-9bb6-371833d994fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\MarchingCubes">
+      <UniqueIdentifier>{f3b2fd43-fbfd-494a-97fb-d75ac11f40d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MarchingCubes">
+      <UniqueIdentifier>{677e26b5-7ae4-4c73-bb2f-2c614b00d701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MarchingCubes">
+      <UniqueIdentifier>{d0b652bb-1cee-4bcf-93d7-738ba888e118}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="NoiseTexture.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TriplanarMesh.cpp">
+      <Filter>Source Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GpuLookupTable.cpp">
+      <Filter>Source Files\MarchingCubes</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files\MarchingCubes</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcedualGenerator.cpp">
+      <Filter>Source Files\MarchingCubes</Filter>
+    </ClCompile>
+    <ClCompile Include="Cascades.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Source Files\OtherStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files\OtherStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\OtherStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Source Files\OtherStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\OtherStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files\OtherStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Delegate.cpp">
+      <Filter>Source Files\OtherStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWatcher.cpp">
+      <Filter>Source Files\OtherStuff</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="NoiseTexture.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TriplanarMesh.h">
+      <Filter>Header Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GpuLookupTable.h">
+      <Filter>Header Files\MarchingCubes</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcedualGenerator.h">
+      <Filter>Header Files\MarchingCubes</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files\MarchingCubes</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\EnumColorMode.glh">
+      <Filter>Shaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\EnumNormalMode.glh">
+      <Filter>Shaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\EnumParticleType.glh">
+      <Filter>Shaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\EnumShadowMode.glh">
+      <Filter>Shaders\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Cascades.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderInfo.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAliasingInfo.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWatcher.h">
+      <Filter>Header Files\OtherStuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\default.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\default.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Text.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Text.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Simple.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Simple.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\Density.frag">
+      <Filter>Shaders\MarchingCubes</Filter>
+    </None>
+    <None Include="shaders\Density.geom">
+      <Filter>Shaders\MarchingCubes</Filter>
+    </None>
+    <None Include="shaders\Density.vert">
+      <Filter>Shaders\MarchingCubes</Filter>
+    </None>
+    <None Include="shaders\MarchingCubes.geom">
+      <Filter>Shaders\MarchingCubes</Filter>
+    </None>
+    <None Include="shaders\MarchingCubes.vert">
+      <Filter>Shaders\MarchingCubes</Filter>
+    </None>
+    <None Include="shaders\Normal.frag">
+      <Filter>Shaders\MarchingCubes</Filter>
+    </None>
+    <None Include="shaders\Normal.geom">
+      <Filter>Shaders\MarchingCubes</Filter>
+    </None>
+    <None Include="shaders\Normal.vert">
+      <Filter>Shaders\MarchingCubes</Filter>
+    </None>
+    <None Include="shaders\ParticleRender.frag">
+      <Filter>Shaders\ParticleSystem</Filter>
+    </None>
+    <None Include="shaders\ParticleRender.geom">
+      <Filter>Shaders\ParticleSystem</Filter>
+    </None>
+    <None Include="shaders\ParticleRender.vert">
+      <Filter>Shaders\ParticleSystem</Filter>
+    </None>
+    <None Include="shaders\ParticleUpdate.geom">
+      <Filter>Shaders\ParticleSystem</Filter>
+    </None>
+    <None Include="shaders\ParticleUpdate.vert">
+      <Filter>Shaders\ParticleSystem</Filter>
+    </None>
+    <None Include="Shaders\Tessellation.geom">
+      <Filter>Shaders\Tessellation</Filter>
+    </None>
+    <None Include="Shaders\Tessellation.tesc">
+      <Filter>Shaders\Tessellation</Filter>
+    </None>
+    <None Include="Shaders\Tessellation.tese">
+      <Filter>Shaders\Tessellation</Filter>
+    </None>
+    <None Include="Shaders\Tessellation.vert">
+      <Filter>Shaders\Tessellation</Filter>
+    </None>
+    <None Include="Shaders\Tessellation.frag">
+      <Filter>Shaders\Tessellation</Filter>
+    </None>
+    <None Include="Shaders\EnumDisplacementMode.glh">
+      <Filter>Shaders\Enums</Filter>
+    </None>
+    <None Include="shaders\Lighting.glh">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\DirectionalLight.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\DirectionalLight.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\TriPlanar.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\TriPlanar.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\EnumLightType.glh">
+      <Filter>Shaders\Enums</Filter>
+    </None>
+  </ItemGroup>
+</Project>

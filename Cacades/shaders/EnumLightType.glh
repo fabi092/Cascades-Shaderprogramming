@@ -1,0 +1,8 @@
+#ifndef ENUM_LIGHT_TYPE_H_INCLUDED
+#define ENUM_LIGHT_TYPE_H_INCLUDED
+
+const int DIR_LIGHT = 0;
+const int SPOT_LIGHT = 1;
+const int POINT_LIGHT = 2;
+
+#endif

@@ -1,0 +1,8 @@
+#ifndef ENUM_SHADOW_MODE_H_INCLUDED
+#define ENUM_SHADOW_MODE_H_INCLUDED
+
+const int HARD_SHADOWS = 0;
+const int PCF_SHADOWS = 1;
+const int VSM_SHADOWS = 2;
+
+#endif
